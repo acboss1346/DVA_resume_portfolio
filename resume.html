@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Chauhan - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&family=Times+New+Roman&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Serif', 'Times New Roman', Georgia, serif;
+            font-size: 10.5pt;
+            line-height: 1.35;
+            color: #000;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .resume-page {
+            width: 8.5in;
+            min-height: 11in;
+            background: #fff;
+            padding: 0.5in 0.6in;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+        }
+
+        /* ─── HEADER ─── */
+        .header {
+            text-align: center;
+            margin-bottom: 4px;
+        }
+
+        .header h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .header .contact-line {
+            font-size: 9.5pt;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .header .links-line {
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .header .links-line a {
+            color: #0563C1;
+            text-decoration: none;
+        }
+
+        .header .links-line a:hover {
+            text-decoration: underline;
+        }
+
+        .separator-bold {
+            border: none;
+            border-top: 2px solid #000;
+            margin: 6px 0 4px 0;
+        }
+
+        .separator-thin {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 3px 0 4px 0;
+        }
+
+        /* ─── SECTIONS ─── */
+        .section {
+            margin-bottom: 6px;
+        }
+
+        .section-title {
+            font-size: 11.5pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 0;
+        }
+
+        /* ─── SUMMARY ─── */
+        .summary-text {
+            font-size: 10pt;
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* ─── SKILLS TABLE ─── */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10pt;
+        }
+
+        .skills-table td {
+            padding: 2px 4px;
+            vertical-align: top;
+        }
+
+        .skills-table td:first-child {
+            font-weight: 700;
+            width: 180px;
+            white-space: nowrap;
+        }
+
+        /* ─── PROJECTS ─── */
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+        }
+
+        .project-title {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .project-link {
+            font-size: 9pt;
+            color: #0563C1;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .project-tech {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #444;
+            margin-bottom: 2px;
+        }
+
+        .project-bullets {
+            padding-left: 18px;
+            margin-top: 1px;
+        }
+
+        .project-bullets li {
+            font-size: 10pt;
+            margin-bottom: 1px;
+            text-align: justify;
+            line-height: 1.35;
+        }
+
+        /* ─── EDUCATION ─── */
+        .edu-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .edu-degree {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .edu-date {
+            font-size: 10pt;
+            font-style: italic;
+        }
+
+        .edu-school {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .edu-details {
+            font-size: 10pt;
+        }
+
+        .pipe {
+            margin: 0 4px;
+            color: #666;
+        }
+
+        /* ─── PRINT ─── */
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .resume-page {
+                box-shadow: none;
+                padding: 0.4in 0.5in;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-page">
+
+        <!-- ═══════════════ HEADER ═══════════════ -->
+        <div class="header">
+            <h1>Akshat Chauhan</h1>
+            <div class="contact-line">
+                Sonipat, Haryana &nbsp;|&nbsp; 8287185297 &nbsp;|&nbsp; 
+                <a href="mailto:akshat.chauhan2024@nst.rishihood.edu.in" style="color:#0563C1; text-decoration:none;">akshat.chauhan2024@nst.rishihood.edu.in</a>
+            </div>
+            <div class="links-line">
+                <a href="https://www.linkedin.com/in/akshat-chauhan-8b80262a9/">LinkedIn</a>
+                <span class="pipe">|</span>
+                <a href="https://github.com/acboss1346">GitHub</a>
+                <span class="pipe">|</span>
+                <a href="https://www.kaggle.com/acboss">Kaggle</a>
+            </div>
+        </div>
+
+        <hr class="separator-bold">
+
+        <!-- ═══════════════ SUMMARY ═══════════════ -->
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <hr class="separator-thin">
+            <p class="summary-text">
+                Detail-oriented and analytically driven data science student with hands-on experience in data cleaning, 
+                exploratory data analysis, statistical modeling, and data visualization. Proficient in Python, SQL, 
+                and Excel with a strong foundation in machine learning, ETL pipelines, and dashboard creation. 
+                Passionate about transforming raw data into actionable insights and building end-to-end 
+                data solutions. Eager to apply analytical skills and technical expertise to solve real-world business 
+                problems in a collaborative, fast-paced environment.
+            </p>
+        </div>
+
+        <!-- ═══════════════ TECHNICAL SKILLS ═══════════════ -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <hr class="separator-thin">
+            <table class="skills-table">
+                <tr>
+                    <td>Programming Languages:</td>
+                    <td>Python, SQL, JavaScript, HTML/CSS</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis & ML:</td>
+                    <td>Pandas, NumPy, Scikit-learn, SciPy, Statsmodels, Matplotlib, Seaborn</td>
+                </tr>
+                <tr>
+                    <td>Databases:</td>
+                    <td>MySQL, PostgreSQL, MongoDB</td>
+                </tr>
+                <tr>
+                    <td>Visualization Tools:</td>
+                    <td>Excel, Tableau, Matplotlib, Seaborn</td>
+                </tr>
+                <tr>
+                    <td>Tools & Platforms:</td>
+                    <td>Git, GitHub, Jupyter Notebook, VS Code, Google Colab</td>
+                </tr>
+                <tr>
+                    <td>Other:</td>
+                    <td>ETL Pipelines, Data Cleaning, Statistical Analysis, EDA, Feature Engineering</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ═══════════════ PROJECTS ═══════════════ -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+            <hr class="separator-thin">
+
+            <!-- Project 1 -->
+            <div style="margin-bottom: 8px;">
+                <div class="project-header">
+                    <span class="project-title">Google Play Store Ecosystem Strategy Dashboard</span>
+                    <a class="project-link" href="https://github.com/manjeet090223/Section-A_G-13_Google_Play_Store" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Tableau, Python, Pandas, SQL, Excel, ETL Pipeline</div>
+                <ul class="project-bullets">
+                    <li>Analyzed 2.3M+ Google Play Store applications to identify actionable business strategies for app discovery, user engagement, and monetization improvement.</li>
+                    <li>Developed a comprehensive 5-page industry-level dashboard in Tableau with advanced features including Drill-downs, KPI cards, and an interactive Category-Rating-Installs Heatmap.</li>
+                    <li>Evaluated market opportunities by cross-referencing low competition with high install rates, discovering key niches for developer optimization and strategic investments.</li>
+                    <li>Investigated the correlation between user ratings, app size, pricing, and installation numbers to provide concrete insights on revenue generation and app quality.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div style="margin-bottom: 4px;">
+                <div class="project-header">
+                    <span class="project-title">Enterprise-Grade Cafe Sales Analytics Dashboard</span>
+                    <a class="project-link" href="https://github.com/Taj-2005/SectionA_Group17_Cafe_Sales" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Google Sheets, Pivot Tables, Data Cleaning, Dashboard Visualization</div>
+                <ul class="project-bullets">
+                    <li>Engineered an end-to-end data pipeline transforming 10,000 raw transaction records into 6,658 analytics-grade entries, successfully resolving $2,847 in miscalculated revenue.</li>
+                    <li>Designed an interactive KPI dashboard using Google Sheets, delivering 14 actionable operational metrics for menu engineering, staffing optimization, and payment strategy.</li>
+                    <li>Implemented comprehensive temporal and payment behavior analyses, identifying monthly revenue trends and channel preferences to maximize business ROI.</li>
+                    <li>Maintained academic integrity and 100% data reproducibility through a fully documented methodology tracking deterministic transformation rules.</li>
+                </ul>
+            </div>
+
+            <!-- Project 3 -->
+            <div style="margin-bottom: 4px;">
+                <div class="project-header">
+                    <span class="project-title">F1 Race Strategy Intelligence</span>
+                    <a class="project-link" href="https://github.com/mitul-bhatia/Sec-A_g-4_F1_Race_Strategy_Intelligence" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Python, Pandas, Tableau, Hypothesis Testing, ETL Pipeline</div>
+                <ul class="project-bullets">
+                    <li>Analyzed how strategic execution — qualifying precision, pit stop efficiency, and circuit tactics — drives Constructor Championship outcomes.</li>
+                    <li>Built a 5-notebook ETL pipeline processing 726,600+ records across 76 F1 seasons and 111 attributes from the Ergast dataset.</li>
+                    <li>Engineered Grid-to-Finish Excellence Delta and Operational Efficiency Score KPIs; applied hypothesis testing to quantify pit strategy value.</li>
+                    <li>Built Tableau dashboards comparing 1-stop vs 2-stop strategies across circuit types and led a 7-member cross-functional team.</li>
+                </ul>
+            </div>
+
+            <!-- Project 4 -->
+            <div style="margin-bottom: 4px;">
+                <div class="project-header">
+                    <span class="project-title">The Efficiency of Speed — F1 Hybrid Era (2014–2025)</span>
+                    <a class="project-link" href="https://github.com/mitul-bhatia/Section_A_G-4_The_Efficiency_of_Speed" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Python, Pandas, SciPy, Tableau, Data Cleaning</div>
+                <ul class="project-bullets">
+                    <li>Investigated whether F1 races in the Hybrid Era (2014–2025) are won through raw track pace or pit lane execution.</li>
+                    <li>Built and merged 7 relational CSV tables (races, results, pit_stops, lap_times, drivers, etc.) using Pandas and engineered a Pace Retention Rate metric.</li>
+                    <li>Applied SciPy statistical analysis and built Tableau dashboards to visualize Position Delta vs pit stop duration across circuit categories.</li>
+                </ul>
+            </div>
+
+            <!-- Project 5 -->
+            <div style="margin-bottom: 4px;">
+                <div class="project-header">
+                    <span class="project-title">Hospital Readmission Optimization</span>
+                    <a class="project-link" href="https://github.com/mitul-bhatia/SectionA_Group-16_optimize-hospital-readmission" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Google Sheets, Excel, Data Cleaning, Dashboard Visualization</div>
+                <ul class="project-bullets">
+                    <li>Analyzed 14,116 patient records from 130 US hospitals (1999–2008) to perform full data cleaning pipeline and identify testing gaps.</li>
+                    <li>Quantified $20.49M in revenue leakage; identified 83.1% A1C testing gap and 56% emergency admission share.</li>
+                    <li>Built Google Sheets dashboard with dynamic filters and delivered 4 recommendations projected to save $1–2M annually.</li>
+                </ul>
+            </div>
+
+            <!-- Project 6 -->
+            <div style="margin-bottom: 4px;">
+                <div class="project-header">
+                    <span class="project-title">Hindalco vs NALCO — Financial Ratio Analysis</span>
+                    <a class="project-link" href="https://github.com/mitul-bhatia/Fianance_project" target="_blank">GitHub ↗</a>
+                </div>
+                <div class="project-tech">Excel, Tableau, Financial Modeling, Ratio Analysis</div>
+                <ul class="project-bullets">
+                    <li>Compared Hindalco Industries and National Aluminium Company across FY22–FY25 using 16+ key financial ratios including liquidity, profitability, efficiency, and valuation metrics.</li>
+                    <li>Built detailed Excel dashboards with consolidated income statements, balance sheets, and common-size financial statements.</li>
+                    <li>Derived investment recommendations based on NALCO's superior profitability (ROE 29.5% vs 13%) and Hindalco's stronger asset efficiency, visualized with Tableau.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══════════════ EDUCATION ═══════════════ -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            <hr class="separator-thin">
+            <div class="edu-row">
+                <span class="edu-degree">Bachelor of Technology (B.Tech) — Computer Science / Data Science</span>
+                <span class="edu-date">2024 – 2028</span>
+            </div>
+            <div class="edu-school">Rishihood University, Sonipat, Haryana</div>
+            <div class="edu-details"><strong>CGPA:</strong> 7.2 / 10.0</div>
+        </div>
+
+    </div>
+</body>
+</html>
