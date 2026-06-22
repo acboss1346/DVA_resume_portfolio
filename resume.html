@@ -1,18 +1,296 @@
-<div class="section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Chauhan - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Serif', 'Times New Roman', Georgia, serif;
+            font-size: 10.5pt;
+            line-height: 1.4;
+            color: #000;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .resume-page {
+            width: 8.5in;
+            min-height: 11in;
+            background: #fff;
+            padding: 0.6in 0.6in;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+        }
+
+        /* ─── HEADER ─── */
+        .header {
+            text-align: center;
+            margin-bottom: 4px;
+        }
+
+        .header h1 {
+            font-size: 22pt;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .header .contact-line {
+            font-size: 9.5pt;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .header .links-line {
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .header .links-line a {
+            color: #0563C1;
+            text-decoration: none;
+        }
+
+        .header .links-line a:hover {
+            text-decoration: underline;
+        }
+
+        .separator-bold {
+            border: none;
+            border-top: 2px solid #000;
+            margin: 6px 0 4px 0;
+        }
+
+        .separator-thin {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 3px 0 5px 0;
+        }
+
+        /* ─── SECTIONS ─── */
+        .section {
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 11.5pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 0;
+        }
+
+        /* ─── SUMMARY ─── */
+        .summary-text {
+            font-size: 10pt;
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* ─── SKILLS TABLE ─── */
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10pt;
+        }
+
+        .skills-table td {
+            padding: 3px 4px;
+            vertical-align: top;
+        }
+
+        .skills-table td:first-child {
+            font-weight: 700;
+            width: 180px;
+            white-space: nowrap;
+        }
+
+        /* ─── PROJECTS ─── */
+        .project-block {
+            margin-bottom: 10px;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+        }
+
+        .project-title {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .project-link {
+            font-size: 9pt;
+            color: #0563C1;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .project-tech {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #444;
+            margin-bottom: 3px;
+        }
+
+        .project-bullets {
+            padding-left: 18px;
+        }
+
+        .project-bullets li {
+            font-size: 10pt;
+            margin-bottom: 2px;
+            text-align: justify;
+            line-height: 1.35;
+        }
+
+        /* ─── EDUCATION ─── */
+        .edu-block {
+            margin-bottom: 6px;
+        }
+
+        .edu-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .edu-degree {
+            font-weight: 700;
+            font-size: 10.5pt;
+        }
+
+        .edu-date {
+            font-size: 10pt;
+            font-style: italic;
+        }
+
+        .edu-school {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        .edu-details {
+            font-size: 10pt;
+        }
+
+        .pipe {
+            margin: 0 4px;
+            color: #666;
+        }
+
+        /* ─── PRINT ─── */
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .resume-page {
+                box-shadow: none;
+                padding: 0.5in 0.6in;
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-page">
+
+        <div class="header">
+            <h1>Akshat Chauhan</h1>
+            <div class="contact-line">
+                Sonipat, Haryana &nbsp;|&nbsp; +918287185297 &nbsp;|&nbsp; 
+                <a href="mailto:akshat.chauhan2024@nst.rishihood.edu.in" style="color:#0563C1; text-decoration:none;">akshat.chauhan2024@nst.rishihood.edu.in</a>
+            </div>
+            <div class="links-line">
+                <a href="https://www.linkedin.com/in/akshat-chauhan-8b80262a9/" target="_blank">LinkedIn</a>
+                <span class="pipe">|</span>
+                <a href="https://github.com/acboss1346" target="_blank">GitHub</a>
+                <span class="pipe">|</span>
+                <a href="https://www.kaggle.com/acboss" target="_blank">Kaggle</a>
+            </div>
+        </div>
+
+        <hr class="separator-bold">
+
+        <div class="section">
+            <div class="section-title">Summary</div>
+            <hr class="separator-thin">
+            <p class="summary-text">
+                Detail-oriented and analytically driven data science student with hands-on experience in data cleaning, 
+                exploratory data analysis, statistical modeling, and data visualization. Proficient in Python, SQL, 
+                and Excel with a strong foundation in machine learning, ETL pipelines, and dashboard creation. 
+                Passionate about transforming raw data into actionable insights and building end-to-end data solutions to solve business problems.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <hr class="separator-thin">
+            <table class="skills-table">
+                <tr>
+                    <td>Programming Languages:</td>
+                    <td>Python, SQL, JavaScript, HTML/CSS</td>
+                </tr>
+                <tr>
+                    <td>Data Analysis & ML:</td>
+                    <td>Pandas, NumPy, Scikit-learn, SciPy, Statsmodels, Matplotlib, Seaborn</td>
+                </tr>
+                <tr>
+                    <td>Databases:</td>
+                    <td>MySQL, PostgreSQL, MongoDB</td>
+                </tr>
+                <tr>
+                    <td>Visualization Tools:</td>
+                    <td>Excel, Tableau, Matplotlib, Seaborn</td>
+                </tr>
+                <tr>
+                    <td>Tools & Platforms:</td>
+                    <td>Git, GitHub, Jupyter Notebook, VS Code, Google Colab</td>
+                </tr>
+                <tr>
+                    <td>Core Domains:</td>
+                    <td>ETL Pipelines, Data Cleaning, Statistical Analysis, EDA, Feature Engineering</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
             <div class="section-title">Projects</div>
             <hr class="separator-thin">
 
-            <div class="project-block" style="margin-bottom: 8px;">
+            <div class="project-block">
                 <div class="project-header">
                     <span class="project-title">Google Play Store Ecosystem Strategy Dashboard</span>
                     <a class="project-link" href="https://github.com/manjeet090223/Section-A_G-13_Google_Play_Store" target="_blank">GitHub ↗</a>
                 </div>
                 <div class="project-tech">Tableau, Python, Pandas, SQL, Excel, ETL Pipeline</div>
                 <ul class="project-bullets">
-                    <li>Analyzed 2.3M+ Google Play Store applications to identify actionable business strategies for app discovery, user engagement, and monetization improvement. [cite: 67]</li>
-                    <li>Developed a comprehensive 5-page industry-level dashboard in Tableau with advanced features including Drill-downs, KPI cards, and an interactive Category-Rating-Installs Heatmap. [cite: 68]</li>
-                    <li>Evaluated market opportunities by cross-referencing low competition with high install rates, discovering key niches for developer optimization and strategic investments. [cite: 69]</li>
-                    <li>Investigated the correlation between user ratings, app size, pricing, and installation numbers to provide concrete insights on revenue generation and app quality. [cite: 70]</li>
+                    <li>Analyzed 2.3M+ Google Play Store applications to identify actionable business strategies for app discovery, user engagement, and monetization improvement.</li>
+                    <li>Developed a comprehensive 5-page industry-level dashboard in Tableau with advanced features including Drill-downs, KPI cards, and an interactive Category-Rating-Installs Heatmap.</li>
+                    <li>Evaluated market opportunities by cross-referencing low competition with high install rates, discovering key niches for developer optimization and strategic investments.</li>
+                    <li>Investigated the correlation between user ratings, app size, pricing, and installation numbers to provide concrete insights on revenue generation and app quality.</li>
                 </ul>
             </div>
 
@@ -23,10 +301,46 @@
                 </div>
                 <div class="project-tech">Google Sheets, Pivot Tables, Data Cleaning, Dashboard Visualization</div>
                 <ul class="project-bullets">
-                    <li>Engineered an end-to-end data pipeline transforming 10,000 raw transaction records into 6,658 analytics-grade entries, successfully resolving $2,847 in miscalculated revenue. [cite: 74]</li>
-                    <li>Designed an interactive KPI dashboard using Google Sheets, delivering 14 actionable operational metrics for menu engineering, staffing optimization, and payment strategy. [cite: 75]</li>
-                    <li>Implemented comprehensive temporal and payment behavior analyses, identifying monthly revenue trends and channel preferences to maximize business ROI. [cite: 76]</li>
-                    <li>Maintained academic integrity and 100% data reproducibility through a fully documented methodology tracking deterministic transformation rules. [cite: 77]</li>
+                    <li>Engineered an end-to-end data pipeline transforming 10,000 raw transaction records into 6,658 analytics-grade entries, successfully resolving $2,847 in miscalculated revenue.</li>
+                    <li>Designed an interactive KPI dashboard using Google Sheets, delivering 14 actionable operational metrics for menu engineering, staffing optimization, and payment strategy.</li>
+                    <li>Implemented comprehensive temporal and payment behavior analyses, identifying monthly revenue trends and channel preferences to maximize business ROI.</li>
+                    <li>Maintained academic integrity and 100% data reproducibility through a fully documented methodology tracking deterministic transformation rules.</li>
                 </ul>
             </div>
         </div>
+
+        <div class="section">
+            <div class="section-title">Education</div>
+            <hr class="separator-thin">
+            
+            <div class="edu-block">
+                <div class="edu-row">
+                    <span class="edu-degree">Bachelor of Technology (B.Tech) — Computer Science and AI</span>
+                    <span class="edu-date">2024 – 2028</span>
+                </div>
+                <div class="edu-school">Rishihood University, Sonipat, Haryana</div>
+                <div class="edu-details"><strong>CGPA:</strong> 7.2 / 10.0</div>
+            </div>
+
+            <div class="edu-block">
+                <div class="edu-row">
+                    <span class="edu-degree">Intermediate (Class XII) — Science</span>
+                    <span class="edu-date">2024</span>
+                </div>
+                <div class="edu-school">Gurukul The School</div>
+                <div class="edu-details"><strong>Grade:</strong> 90%</div>
+            </div>
+
+            <div class="edu-block">
+                <div class="edu-row">
+                    <span class="edu-degree">Matriculation (Class X)</span>
+                    <span class="edu-date">2022</span>
+                </div>
+                <div class="edu-school">Gurukul The School</div>
+                <div class="edu-details"><strong>Grade:</strong> 91%</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
