@@ -21,31 +21,29 @@
 
 body{
     font-family:'Noto Serif','Times New Roman',serif;
-    font-size:9pt;
-    line-height:1.25;
+    font-size:9.5pt;
+    line-height:1.35;
     color:#000;
     background:#f5f5f5;
     display:flex;
     justify-content:center;
-    padding:10px;
+    padding:15px;
 }
 
 .resume-page{
     width:8.27in;
-    height:11.69in;
+    min-height:11.69in;
     background:#fff;
-    padding:0.35in 0.45in;
+    padding:0.4in 0.5in;
     box-shadow:0 2px 15px rgba(0,0,0,0.15);
-    overflow:hidden;
 }
 
 .header{
     text-align:center;
-    margin-bottom:2px;
 }
 
 .header h1{
-    font-size:19pt;
+    font-size:22pt;
     font-weight:700;
     letter-spacing:1px;
     text-transform:uppercase;
@@ -53,11 +51,12 @@ body{
 
 .contact-line,
 .links-line{
-    font-size:9pt;
+    font-size:9.5pt;
+    margin-top:2px;
 }
 
-.links-line a,
-.contact-line a{
+.contact-line a,
+.links-line a{
     color:#0563C1;
     text-decoration:none;
 }
@@ -65,21 +64,21 @@ body{
 .separator-bold{
     border:none;
     border-top:2px solid #000;
-    margin:3px 0;
+    margin:6px 0;
 }
 
 .separator-thin{
     border:none;
     border-top:1px solid #000;
-    margin:1px 0 3px;
+    margin:2px 0 5px;
 }
 
 .section{
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 .section-title{
-    font-size:10.5pt;
+    font-size:11pt;
     font-weight:700;
     text-transform:uppercase;
     letter-spacing:1px;
@@ -87,8 +86,6 @@ body{
 
 .summary-text{
     text-align:justify;
-    font-size:9pt;
-    line-height:1.3;
 }
 
 .skills-table{
@@ -97,17 +94,17 @@ body{
 }
 
 .skills-table td{
-    padding:1px 4px;
+    padding:2px 4px;
     vertical-align:top;
 }
 
 .skills-table td:first-child{
-    width:140px;
+    width:170px;
     font-weight:700;
 }
 
 .project-block{
-    margin-bottom:4px;
+    margin-bottom:8px;
 }
 
 .project-header{
@@ -118,7 +115,7 @@ body{
 
 .project-title{
     font-weight:700;
-    font-size:9.5pt;
+    font-size:10pt;
 }
 
 .project-link{
@@ -129,23 +126,21 @@ body{
 
 .project-tech{
     font-style:italic;
-    font-size:8.5pt;
     color:#444;
-    margin-bottom:1px;
+    margin-bottom:3px;
 }
 
 .project-bullets{
-    padding-left:15px;
+    padding-left:18px;
 }
 
 .project-bullets li{
-    margin-bottom:0;
-    line-height:1.2;
+    margin-bottom:2px;
     text-align:justify;
 }
 
 .edu-block{
-    margin-bottom:3px;
+    margin-bottom:6px;
 }
 
 .edu-row{
@@ -162,7 +157,7 @@ body{
 }
 
 .pipe{
-    margin:0 4px;
+    margin:0 5px;
 }
 
 @media print{
@@ -205,14 +200,11 @@ body{
 <hr class="separator-bold">
 
 <div class="section">
-    <div class="section-title">Summary</div>
+    <div class="section-title">Professional Summary</div>
     <hr class="separator-thin">
 
     <p class="summary-text">
-        Computer Science & AI undergraduate with experience in data analytics, machine learning,
-        and dashboard development. Skilled in Python, SQL, Tableau, and Excel with hands-on
-        experience in data cleaning, exploratory data analysis, ETL pipelines, and business
-        intelligence projects. Passionate about solving real-world problems using data-driven solutions.
+        Computer Science and Artificial Intelligence undergraduate at Rishihood University with strong interests in Data Analytics, Artificial Intelligence, Machine Learning, and Software Development. Experienced in building end-to-end analytical solutions involving data collection, cleaning, exploratory data analysis, visualization, dashboard development, and business intelligence reporting using Python, SQL, Tableau, and Excel. Skilled at extracting actionable insights from large datasets through statistical analysis, data storytelling, and interactive dashboards. Passionate about leveraging emerging technologies and AI-driven approaches to solve real-world business challenges and create scalable technology solutions.
     </p>
 </div>
 
@@ -222,26 +214,49 @@ body{
 
     <table class="skills-table">
         <tr>
-            <td>Languages:</td>
-            <td>Python, SQL, JavaScript, HTML/CSS</td>
+            <td>Programming Languages</td>
+            <td>Python, SQL, JavaScript, HTML, CSS</td>
         </tr>
+
         <tr>
-            <td>Data & ML:</td>
-            <td>Pandas, NumPy, Scikit-learn, SciPy</td>
+            <td>Data Analytics</td>
+            <td>Pandas, NumPy, SciPy, Statistical Analysis, EDA</td>
         </tr>
+
         <tr>
-            <td>Visualization:</td>
-            <td>Tableau, Excel, Matplotlib</td>
+            <td>Machine Learning</td>
+            <td>Scikit-Learn, Feature Engineering, Model Evaluation</td>
         </tr>
+
         <tr>
-            <td>Databases:</td>
+            <td>Visualization</td>
+            <td>Tableau, Excel, Matplotlib, Dashboard Development</td>
+        </tr>
+
+        <tr>
+            <td>Databases</td>
             <td>MySQL, PostgreSQL, MongoDB</td>
         </tr>
+
         <tr>
-            <td>Tools:</td>
-            <td>Git, GitHub, Jupyter Notebook, VS Code</td>
+            <td>Tools & Platforms</td>
+            <td>Git, GitHub, Jupyter Notebook, VS Code, Google Colab</td>
         </tr>
     </table>
+</div>
+
+<div class="section">
+    <div class="section-title">Relevant Coursework</div>
+    <hr class="separator-thin">
+
+    <p>
+        Data Structures & Algorithms, Database Management Systems,
+        Object-Oriented Programming, Software Engineering,
+        Artificial Intelligence, Machine Learning Fundamentals,
+        Probability & Statistics, Exploratory Data Analysis,
+        Inferential Statistics, Data Visualization,
+        Web Development, Computer Networks.
+    </p>
 </div>
 
 <div class="section">
@@ -251,46 +266,72 @@ body{
     <div class="project-block">
         <div class="project-header">
             <span class="project-title">Google Play Store Ecosystem Strategy Dashboard</span>
-            <a class="project-link" href="https://github.com/manjeet090223/Section-A_G-13_Google_Play_Store">GitHub ↗</a>
+
+            <a class="project-link"
+               href="https://github.com/manjeet090223/Section-A_G-13_Google_Play_Store">
+               GitHub ↗
+            </a>
         </div>
 
         <div class="project-tech">
-            Tableau, Python, Pandas, SQL, Excel
+            Tableau, Python, Pandas, SQL, Excel, ETL Pipeline
         </div>
 
         <ul class="project-bullets">
-            <li>Analyzed 2.3M+ Google Play Store applications to identify trends in app discovery, engagement, and monetization.</li>
-            <li>Built a 5-page Tableau dashboard featuring KPI cards, drill-down analysis, and interactive visualizations.</li>
-            <li>Identified high-growth app categories through ratings, installs, pricing, and competition analysis.</li>
+            <li>Analyzed over 2.3 million Google Play Store applications representing hundreds of billions of installs to identify trends in app engagement, monetization, and marketplace performance.</li>
+
+            <li>Performed large-scale data cleaning, transformation, and preprocessing using Python and Pandas to improve analytical accuracy and reporting quality.</li>
+
+            <li>Designed and developed a multi-page Tableau dashboard with KPI cards, drill-down capabilities, category-wise analysis, and interactive visualizations.</li>
+
+            <li>Investigated relationships between ratings, pricing models, app categories, and install counts to identify high-growth opportunities.</li>
+
+            <li>Generated strategic recommendations for improving app visibility, user acquisition, and revenue generation using data-driven insights.</li>
         </ul>
     </div>
 
     <div class="project-block">
         <div class="project-header">
-            <span class="project-title">Cafe Sales Analytics Dashboard</span>
-            <a class="project-link" href="https://github.com/Taj-2005/SectionA_Group17_Cafe_Sales">GitHub ↗</a>
+            <span class="project-title">Enterprise Cafe Sales Analytics Dashboard</span>
+
+            <a class="project-link"
+               href="https://github.com/Taj-2005/SectionA_Group17_Cafe_Sales">
+               GitHub ↗
+            </a>
         </div>
 
         <div class="project-tech">
-            Tableau, Google Sheets, Data Cleaning, Dashboard Design
+            Tableau, Google Sheets, Data Cleaning, Dashboard Visualization
         </div>
 
         <ul class="project-bullets">
-            <li>Cleaned and transformed 10,000 transaction records into 6,658 analytics-ready entries.</li>
-            <li>Developed an interactive Tableau dashboard with 14 KPIs for sales and customer insights.</li>
-            <li>Generated actionable insights on revenue trends, popular products, and payment behavior.</li>
+            <li>Processed and transformed more than 10,000 sales transactions into analytics-ready datasets through structured data cleaning and validation workflows.</li>
+
+            <li>Developed an interactive Tableau dashboard featuring 14 key performance indicators focused on revenue, customer behavior, and operational efficiency.</li>
+
+            <li>Conducted trend analysis across products, payment methods, and purchasing behavior to support business decision-making.</li>
+
+            <li>Identified revenue inconsistencies and improved reporting reliability through systematic transformation procedures.</li>
+
+            <li>Created visual reports enabling stakeholders to monitor business performance and optimize operational strategies.</li>
         </ul>
     </div>
 </div>
 
 <div class="section">
-    <div class="section-title">Achievements</div>
+    <div class="section-title">Achievements & Leadership</div>
     <hr class="separator-thin">
 
     <ul class="project-bullets">
         <li>Silver Medalist at Junior Olympics.</li>
-        <li>Represented university, academy, and school teams in competitive cricket tournaments.</li>
-        <li>Secured multiple podium finishes in university and inter-clan cricket competitions.</li>
+
+        <li>Represented school, academy, and university teams in competitive cricket tournaments and sporting events.</li>
+
+        <li>Secured second place in University Sports Fest and multiple podium finishes in inter-clan cricket competitions.</li>
+
+        <li>Active participant in university technology communities, workshops, innovation challenges, and project-based learning initiatives.</li>
+
+        <li>Demonstrated leadership, teamwork, communication, and time-management skills through balancing academics, technical projects, and sports.</li>
     </ul>
 </div>
 
@@ -300,25 +341,28 @@ body{
 
     <div class="edu-block">
         <div class="edu-row">
-            <span class="edu-degree">B.Tech, Computer Science & AI — Rishihood University</span>
-            <span class="edu-date">2024–2028</span>
+            <span class="edu-degree">Bachelor of Technology (Computer Science & Artificial Intelligence)</span>
+            <span class="edu-date">2024 – 2028</span>
         </div>
+        <div>Rishihood University, Sonipat, Haryana</div>
         <div>CGPA: 7.2 / 10</div>
     </div>
 
     <div class="edu-block">
         <div class="edu-row">
-            <span class="edu-degree">Class XII (Science) — Gurukul The School</span>
+            <span class="edu-degree">Class XII (Science)</span>
             <span class="edu-date">2024</span>
         </div>
+        <div>Gurukul The School</div>
         <div>90%</div>
     </div>
 
     <div class="edu-block">
         <div class="edu-row">
-            <span class="edu-degree">Class X — Gurukul The School</span>
+            <span class="edu-degree">Class X</span>
             <span class="edu-date">2022</span>
         </div>
+        <div>Gurukul The School</div>
         <div>91%</div>
     </div>
 </div>
